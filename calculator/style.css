@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+
+}
+body{
+    background-image: url('image/technolgy.jpg');
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.calc_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form{
+    height: 75vh;
+    width: 32vw;
+    box-shadow: 0 0 10px 3px rgb(149, 149, 160);
+}
+#calcultor{
+    width: inherit;
+    font-size: 2rem;
+    background-color: rgb(68, 67, 67);
+    padding: 2px 0px 2px 0px;
+    color: white;
+    height: 3rem;
+    border: none;
+    outline: none;
+}
+#disply{
+    width: inherit;
+    height: 100px;
+    border: none;
+    outline: none;
+    font-size: 2.3rem;
+    text-align: right;
+    background-color: rgb(68, 67, 67);
+    color: white;
+}
+.main_layer{
+    width: inherit;
+   display: flex;
+   justify-content: center;
+   height: 55px;
+}
+.layer_one{
+    width: inherit;
+   display: flex;
+   justify-content: center;
+   height: 63px;
+    
+}
+.layer_two{
+    width: inherit;
+    display: flex;
+    justify-content: center;
+    height: 63px;
+}
+.layer_three{
+    width: inherit;
+    display: flex;
+    justify-content: center;
+    height: 63px;
+}
+.layer_four{
+    width: inherit;
+    display: flex;
+    justify-content: center;
+    height: 63px;
+}
+input:hover{
+    background-color: #272424;
+    color: antiquewhite;
+}
+input{flex: 1; border: 1px solid #272424;outline: none;}
+
+h1{
+    color: wheat;
+    font-size: 2rem;
+}

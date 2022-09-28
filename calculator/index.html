@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>calculator</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="calc_center">
+            
+            <form name="calc">
+    <h1>created by Ashu singh rana</h1>
+
+    <input type="text" value="calculator " id="calcultor">
+    <input type="text" name="disply" id="disply">
+    <div class="layer main_layer">
+        <input type="button" value="C" class="clear" onclick="calc.disply.value='' ">
+        <input type="button" value="=" onclick="calc.disply.value=eval(calc.disply.value)">
+    </div>
+    <div class="layer layer_one">
+        <input type="button" value="7" class="main_number" onclick="calc.disply.value+='7' ">
+        <input type="button" value="8" class="main_number" onclick="calc.disply.value+='8' ">
+        <input type="button" value="9" class="main_number" onclick="calc.disply.value+='9' ">
+        <input type="button" value="*" class="multiply" onclick="calc.disply.value+='*'">
+    </div>
+    <div class="layer layer_two">
+        <input type="button" value="4" class="main_number" onclick="calc.disply.value+='4' ">
+        <input type="button" value="5" class="main_number" onclick="calc.disply.value+='5' ">
+        <input type="button" value="5" class="main_number" onclick="calc.disply.value+='5' ">
+        <input type="button" value="/" class="multiply" onclick="calc.disply.value+='/'">
+    </div>
+    <div class="layer layer_three">
+        <input type="button" value="1" class="main_number" onclick="calc.disply.value+='1' ">
+        <input type="button" value="2" class="main_number" onclick="calc.disply.value+='2' ">
+        <input type="button" value="3" class="main_number" onclick="calc.disply.value+='3' ">
+        <input type="button" value="+" class="multiply" onclick="calc.disply.value+='+'">
+    </div>
+    <div class="layer layer_four">
+        <input type="button" value="." class="main_number" onclick="calc.disply.value+='.' ">
+        <input type="button" value="0" class="main_number" onclick="calc.disply.value+='0' ">
+        <input type="button" value="%" class="main_number" onclick="calc.disply.value+='%' ">
+        <input type="button" value="/" class="multiply" onclick="calc.disply.value+='/'">
+    </div>
+</form>
+   </div>
+        
+        <script src="" async defer></script>
+    </body>
+</html>
